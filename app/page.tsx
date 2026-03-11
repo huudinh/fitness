@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div>
-      <Button>Test</Button>
-    </div>
+    <main className="min-h-screen">
+      <Navbar />
+    </main>
   );
 }
