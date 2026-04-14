@@ -47,3 +47,30 @@ export const programs = [
         image: "/nutrition.jpg",
     },
 ];
+
+export const testimonials = [
+    {
+        name: "Sarah M.",
+        story: "I lost 20lbs in 3 months with this program!",
+        details:
+            "The personalized training and nutrition plan made all the difference. I feel stronger and more confident than ever.",
+        image: "/sarah.jpg",
+        rating: 5,
+    },
+    {
+        name: "John D.",
+        story: "The trainers push me beyond my limits in a healthy way.",
+        details:
+            "Professional, motivating, and results-driven. I've gained muscle and improved my overall fitness significantly.",
+        image: "/john.jpg",
+        rating: 4,
+    },
+    {
+        name: "Emily R.",
+        story: "Flexible scheduling made it possible to stay consistent.",
+        details:
+            "As a busy mom, the online sessions and flexible timing helped me maintain my fitness routine without stress.",
+        image: "/emily.jpg",
+        rating: 5,
+    },
+];
