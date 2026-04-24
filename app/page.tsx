@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Programs from "@/components/Programs";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Programs />
       <WhyChooseUs />
       <Testimonials />
+      <Pricing />
     </main>
   );
 }
